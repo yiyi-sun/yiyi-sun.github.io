@@ -23,9 +23,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yi Sun"
   avatar           : "images/IMG_4132 4.jpg"
-  bio              : "PhD Candidate | Educational Researcher"
+  bio              : "The Chinese University of Hong Kong"
   location         : "Hong Kong"
-  employer         : "The Chinese University of Hong Kong"
+  employer         : 
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=W08A-soAAAAJ&hl=en"
   email            : 
