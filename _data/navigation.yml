@@ -3,6 +3,9 @@ main:
   - title: "About Me"
     url: "/#about-me"
 
+  - title: "Research Interests"
+    url: "/#-research-interests"
+
   - title: "Publications"
     url: "/#-publications"
 
@@ -18,5 +21,3 @@ main:
   - title: "Invited Talks"
     url: "/#-invited-talks"
 
-  - title: "Internships"
-    url: "/#-internships"
