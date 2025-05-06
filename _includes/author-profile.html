@@ -23,8 +23,7 @@
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
       {% endif %}
       {% if author.employer %}
-        <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
-      {% endif %}
+        <li><i class="fas fa-fw fa-building-columns" aria-hidden="true"></i> {{ author.employer }}</li>
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
       {% endif %}
@@ -46,15 +45,9 @@
       {% if author.linkedin %}
         <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
       {% endif %}
-    {% if author.bluesky %}
-  {% if author.bluesky %}
-  <li>
-    <a href="https://bsky.app/profile/{{ author.bluesky }}">
-      <img src="{{ '/images/Bluesky.svg' | relative_url }}" alt="Bluesky" style="width:18px; height:18px; vertical-align:middle; margin-right:4px;">
-      Bluesky
-    </a>
-  </li>
-{% endif %}
+     {% if author.bluesky %}
+     <li><a href="https://bsky.app/profile/{{ author.bluesky }}"><i class="fa-brands fa-bluesky"></i> Bluesky</a></li>
+     {% endif %}
       {% if author.twitter %}
         <li><a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
       {% endif %}
