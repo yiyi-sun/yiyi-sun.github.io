@@ -17,24 +17,17 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, it’s Yi here! 🙌
-
-I’m a PhD candidate at The Chinese University of Hong Kong. From undergraduate to postgraduate studies, all my degrees have been in education—so I’ve basically been in this field for ten years, and I’m committed to making it my lifelong career.
-
-I’ve always loved working with children, which is why I chose primary education as my undergraduate major. However, as I continued on the path of educational research, I realized that teachers’ emotions and well-being are often greatly overlooked in schools. This made me wonder: **how can unhappy teachers nurture happy students?** While we constantly emphasize the importance of students’ social-emotional learning (SEL), **do the teachers delivering SEL lessons themselves have enough social-emotional competence to support this kind of education?** These questions led me to my PhD research topic: teachers’ stress, emotion regulation, and well-being. Through my research, I hope to better understand the emotional challenges teachers face in school settings and offer suggestions for creating a healthier work environment.
-
-I am primarily a quantitative education researcher, using surveys to explore the antecedents and outcomes of teacher well-being. I also focus on enhancing teachers’ psychological well-being through educational interventions. But that doesn’t mean my research is just “data-driven” or cold and impersonal. I believe that in educational research, behind every number is a person, and behind every analysis is a theory. **My goal is to conduct research that is both meaningful and insightful, and this will always be my pursuit**.
 
 Hi, it’s Yi here! 🙌
 
 I’m a PhD candidate at The Chinese University of Hong Kong. From undergraduate to postgraduate studies, all my degrees have been in education—so I’ve basically been in this field for ten years, and I’m committed to making it my lifelong career.
 
-I’ve always loved working with children, which is why I chose primary education as my undergraduate major. However, as I continued on the path of educational research, I realized that teachers’ emotions and well-being are often greatly overlooked in schools. This made me wonder: <span style="font-weight:bold; color:#FFA7DF;">how can unhappy teachers nurture happy students?</span> While we constantly emphasize the importance of students’ social-emotional learning (SEL), <span style="font-weight:bold; color:#FFA7DF;">do the teachers delivering SEL lessons themselves have enough social-emotional competence to support this kind of education?</span> These questions led me to my PhD research topic: teachers’ stress, emotion regulation, and well-being. Through my research, I hope to better understand the emotional challenges teachers face in school settings and offer suggestions for creating a healthier work environment.
+I’ve always loved working with children, which is why I chose primary education as my undergraduate major. However, as I continued on the path of educational research, I realized that teachers’ emotions and well-being are often greatly overlooked in schools. This made me wonder: <span style="font-weight:bold; color:#469035;">how can unhappy teachers nurture happy students?</span> While we constantly emphasize the importance of students’ social-emotional learning (SEL), <span style="font-weight:bold; color:#469035;">do the teachers delivering SEL lessons themselves have enough social-emotional competence to support this kind of education?</span> These questions led me to my PhD research topic: teachers’ stress, emotion regulation, and well-being. Through my research, I hope to better understand the emotional challenges teachers face in school settings and offer suggestions for creating a healthier work environment.
 
-I am primarily a quantitative education researcher, using surveys to explore the antecedents and outcomes of teacher well-being. I also focus on enhancing teachers’ psychological well-being through educational interventions. But that doesn’t mean my research is just “data-driven” or cold and impersonal. I believe that in educational research, behind every number is a person, and behind every analysis is a theory. <span style="font-weight:bold; color:#FFA7DF;">My goal is to conduct research that is both meaningful and insightful, and this will always be my pursuit</span>.
+I am primarily a quantitative education researcher, using surveys to explore the antecedents and outcomes of teacher well-being. I also focus on enhancing teachers’ psychological well-being through educational interventions. But that doesn’t mean my research is just “data-driven” or cold and impersonal. I believe that in educational research, behind every number is a person, and behind every analysis is a theory. <span style="font-weight:bold; color:#469035;">My goal is to conduct research that is both meaningful and insightful, and this will always be my pursuit</span>.
 
 
-# 🌻 Research Interests
+# 🌻 Research Interests <span style="font-weight:bold; color:#469035;">
 My research interests are centered on **emotion regulation**, **well-being**, and **social-emotional learning** within school settings. I also focus on enhancing teachers’ and students’ social-emotional competence and psychological well-being through **educational interventions**.
 
 **Key Research Questions**:
@@ -45,7 +38,7 @@ My research interests are centered on **emotion regulation**, **well-being**, an
 
 **Keywords**: Teacher emotion; Emotion regulation; Well-being; Social-emotional learning
 
-# 📝 Publications 
+# 📝 Publications <span style="font-weight:bold; color:#469035;">
 - **Sun, Y.**, & Yin, H. (2025). Profiles of teacher self-efficacy and their relations to teacher demographics and affective well-being: A social cognitive perspective. *Teaching and Teacher Education, 154*, 104855. [link](https://doi.org/10.1016/j.tate.2024.104855)
 - **Sun, Y.**, & Yin, H. (2024). Framing the theoretical perspectives on emotion regulation: A Habermasian typology and its implications for educational research. *Social Psychology of Education, 27*(3), 1117–1141. [link](https://doi.org/10.1007/s11218-023-09855-2) 
 - **Sun, Y.**, & Xiao, L. (2024). Research trends and hotspots of differentiated instruction over the past two decades (2000-2020): A bibliometric analysis. *Educational Studies, 50*(2), 186–202. [link](https://doi.org/10.1080/03055698.2021.1937945)
@@ -54,7 +47,7 @@ My research interests are centered on **emotion regulation**, **well-being**, an
 
 
 
-# 🔥 News
+# 🔥 News <span style="font-weight:bold; color:#469035;">
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
@@ -78,11 +71,11 @@ My research interests are centered on **emotion regulation**, **well-being**, an
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 📖 Education
+# 📖 Education <span style="font-weight:bold; color:#469035;">
 - *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 💬 Invited Talks
+# 💬 Invited Talks <span style="font-weight:bold; color:#469035;">
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
 
