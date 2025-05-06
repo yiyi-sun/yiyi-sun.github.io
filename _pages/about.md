@@ -20,13 +20,13 @@ redirect_from:
 
 Hi, it’s Yi here! 🙌
 
-I’m a PhD candidate at The Chinese University of Hong Kong. From undergraduate to postgraduate studies, all my degrees have been in education—so I’ve basically been in this field for ten years, and I’m committed to making it my lifelong career.
+I’m a PhD candidate at The Chinese University of Hong Kong. From undergraduate to postgraduate studies, all my degrees have been in education—so I’ve been in this field for ten years, and I’m committed to making it my lifelong career.
 
-I’ve always loved working with children, which is why I chose primary education as my undergraduate major. However, as I continued on the path of educational research, I realized that teachers’ emotions and well-being are often greatly overlooked in schools. This made me wonder: how can unhappy teachers nurture happy students? While we constantly emphasize the importance of students’ social-emotional learning (SEL), do the teachers delivering SEL lessons themselves have enough social-emotional competence to support this kind of education?</span> These questions led me to my PhD research topic: teachers’ stress, emotion regulation, and well-being. Through my research, I hope to better understand the emotional challenges teachers face in school settings and offer suggestions for creating a healthier work environment.
+I’ve always loved working with children, which is why I chose primary education as my undergraduate major. However, as I continued on the path of educational research, I realized that teachers’ emotions and well-being are often overlooked in schools. This made me wonder: how can unhappy teachers nurture happy students? While we constantly emphasize the importance of students’ social-emotional learning (SEL), do teachers themselves have enough social-emotional competence to support this kind of education? These questions led me to my PhD research topic: teachers’ stress, emotion regulation, and well-being. Through my research, I hope to better understand the emotional challenges teachers face in school settings and offer suggestions for creating a healthier work environment.
 
-I am primarily a quantitative education researcher, using surveys to explore the antecedents and outcomes of teacher well-being. I also focus on enhancing teachers’ psychological well-being through educational interventions. But that doesn’t mean my research is just “data-driven” or cold and impersonal. I believe that in educational research, behind every number is a person, and behind every analysis is a theory. My goal is to conduct research that is both meaningful and insightful, and this will always be my pursuit.
+I am primarily a quantitative education researcher, using surveys to explore the antecedents and outcomes of teacher well-being. I also focus on enhancing teachers’ psychological well-being through educational interventions. But that doesn’t mean my research is just “data-driven” or cold and impersonal. I believe that in educational research, behind every number is a person, and behind every analysis is a theory. My goal is to conduct research that is both meaningful and insightful, and this will always be my pursuit.🦾
 
-Thank you for taking the time to read my story. I look forward to meeting more like-minded friends as we journey together towards better education!
+Thank you for taking the time to read my story. I look forward to meeting more like-minded friends as we journey together towards better education!🥰!
 
 
 # 🌻 Research Interests
@@ -51,7 +51,7 @@ My research interests are centered on <span style="font-weight:bold; color:#4690
 - **Sun, Y.**, & Xiao, L. (2021). Promoting teaching and learning: Improvement trends of state-mandated tests. *Enrollment and Examination in Hubei* (06), 44-49.(in Chinese) [促進教與學:美國州統考改進⽅向] *(in Chinese)*
 - **Sun, Y.**, ＆ Deng, C. (2018). Exploring the deviant behaviors and their causes among left-behind children in hometowns of overseas Chinese: Based on investigation in Yuhu town and Li’ao street, Wenzhou city, Zhejiang province. *Teacher Education Forum, 10*, 67-70. (in Chinese)[僑鄉留守兒童偏差行為及其動因探析——基於浙江省溫州市玉壺鎮、麗嶴街道兩地的調研] *(in Chinese)*
 
-# 💬 Conference Presentations & Posters
+# 💬 Conferences
 - **Sun, Y.**, & Yin, H. (2025). *Profiles of self-efficacy among Chinese teachers: Associations with teacher demographics and affective well-being.* 2025 Annual Meeting of American Educational Research Association (AERA), Denver, Colorado.
 - **Sun, Y.**, & Yin, H. (2025). *Teachers’ time perspectives and positive occupational well-being: The mediating role of teacher self-efficacy.* 2025 Annual Meeting of American Educational Research Association (AERA), Denver, Colorado.
 - **Sun, Y.**, & Yin, H. (2024). *Profiles of teacher self-efficacy and their relations to teacher demographics and affective well-being: A social cognitive perspective.* ECNU-CUHK Joint Forum Positive Education Symposium, Shanghai, China. *(Best Poster Award)*
