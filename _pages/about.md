@@ -17,9 +17,15 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+Hi, it’s Yi here! 🙌
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+I’m a PhD candidate in Education at The Chinese University of Hong Kong. From undergraduate to postgraduate studies, all my degrees have been in education—so I’ve basically been in this field for ten years, and I’m committed to making it my lifelong career.
+
+I’ve always loved working with children, which is why I chose primary education as my undergraduate major without hesitation. However, as I continued on the path of educational research, I realized that teachers’ emotions and well-being are often greatly overlooked in schools. This made me wonder: how can unhappy teachers nurture happy students? While we constantly emphasize the importance of students’ social-emotional learning (SEL), do the teachers delivering SEL lessons themselves have enough social-emotional competence to support this kind of education? These questions led me to my PhD research topic: teachers’ well-being, emotion regulation, and stress. Through my research, I hope to better understand the emotional challenges teachers face in school settings and offer suggestions for creating a healthier work environment.
+
+I am primarily a quantitative education researcher, using surveys to explore the antecedents and outcomes of teacher well-being. I also focus on enhancing teachers’ social-emotional competence and psychological well-being through educational interventions. But that doesn’t mean my research is just “data-driven” or cold and impersonal. I believe that in education, behind every number is a person, and behind every analysis is a theory. My goal is to conduct research that is both meaningful and insightful—and this will always be my pursuit.
+
+Thank you, my friend, for taking the time to read my story. I look forward to meeting more like-minded collaborators as we journey together towards better education!
 
 
 # 🔥 News
