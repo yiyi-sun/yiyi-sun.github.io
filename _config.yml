@@ -7,12 +7,12 @@
 
 # Site Settings
 title                    : "Yi Sun"
-description              : 
+description              : "PhD candidate in Education, researching well-being and factors that support holistic development and positive outcomes in educational settings."
 repository               : "yiyi-sun.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
-google_analytics_id      :  "W08A-soAAAAJ&hl=en"# get google_analytics_id from https://analytics.google.com/analytics/
+google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
 
 # SEO Related
 google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
@@ -23,9 +23,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yi Sun"
   avatar           : "images/Yi_Photo.jpg"
-  bio              : "PhD Candidate"
-  location         : "Hong Kong"
-  employer         : "The Chinese University of Hong Kong"
+  bio              : "The Chinese University of Hong Kong"
+  location         : 
+  employer         : 
   pubmed           : 
   email            : "sunyi.sy11@gmail.com"
   googlescholar    : "https://scholar.google.com/citations?user=W08A-soAAAAJ&hl=en"
