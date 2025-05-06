@@ -46,10 +46,11 @@
       {% if author.linkedin %}
         <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
       {% endif %}
-      {% if author.bluesky %}
-      <li><a href="https://bsky.app/profile/{{ author.bluesky }}">
-        <svg class="icon icon-pad-right" width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
-            <path d="M12.1046 6.7502C12.1046 3.73737 9.63739 1.3002 6.59464 1.3002C3.55189 1.3002 1.08464 3.73737 1.08464 6.7502C1.08464 9.76303 3.55189 12.2002 6.59464 12.2002C9.63739 12.2002 12.1046 9.76303 12.1046 6.7502ZM0.0846367 6.7502C0.0846367 3.18137 3.00589 0.300201 6.59464 0.300201C10.1834 0.300201 13.1046 3.18137 13.1046 6.7502C13.1046 10.319 10.1834 13.2002 6.59464 13.2002C3.00589 13.2002 0.0846367 10.319 0.0846367 6.7502ZM14.0846 15.7002C14.0846 15.259 14.4434 14.9002 14.8846 14.9002C15.3259 14.9002 15.6846 15.259 15.6846 15.7002C15.6846 16.1415 15.3259 16.5002 14.8846 16.5002C14.4434 16.5002 14.0846 16.1415 14.0846 15.7002ZM14.0846 13.7002C14.0846 13.259 14.4434 12.9002 14.8846 12.9002C15.3259 12.9002 15.6846 13.259 15.6846 13.7002C15.6846 14.1415 15.3259 14.5002 14.8846 14.5002C14.4434 14.5002 14.0846 14.1415 14.0846 13.7002Z"/>
+    {% if author.bluesky %}
+<li>
+    <a href="https://bsky.app/profile/{{ author.bluesky }}">
+        <svg class="icon icon-pad-right" width="16" height="16" fill="currentColor" aria-hidden="true">
+            <use xlink:href="https://unpkg.com/simple-icons@v7/icons/bluesky.svg#icon"/>
         </svg>
         Bluesky
     </a>
