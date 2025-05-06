@@ -27,7 +27,7 @@ I am primarily a quantitative education researcher, using surveys to explore the
 
 Thank you for taking the time to read my story. I look forward to meeting more like-minded friends as we journey together towards better education!
 
-# ☀️ Research Interests
+# ☀️ Research
 My research interests are centered on **emotion regulation**, **well-being**, and **social-emotional learning** within school settings. I also focus on enhancing teachers’ and students’ social-emotional competence and psychological well-being through **educational interventions**.
 
 **Key Research Questions**:
