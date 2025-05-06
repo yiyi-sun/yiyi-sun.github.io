@@ -27,7 +27,7 @@ I’ve always loved working with children, which is why I chose primary educatio
 I am primarily a quantitative education researcher, using surveys to explore the antecedents and outcomes of teacher well-being. I also focus on enhancing teachers’ psychological well-being through educational interventions. But that doesn’t mean my research is just “data-driven” or cold and impersonal. I believe that in educational research, behind every number is a person, and behind every analysis is a theory. <span style="font-weight:bold; color:#469035;">My goal is to conduct research that is both meaningful and insightful, and this will always be my pursuit</span>.
 
 
-# 🌻 Research Interests <span style="font-weight:bold; color:#469035;">
+<h1 style="color:#FF69B4;">🌻 Research Interests</h1>
 My research interests are centered on **emotion regulation**, **well-being**, and **social-emotional learning** within school settings. I also focus on enhancing teachers’ and students’ social-emotional competence and psychological well-being through **educational interventions**.
 
 **Key Research Questions**:
