@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yi Sun"
-description              : "PhD candidate"
+description              : "Research interests: well-being, social-emotional learning, emotion regulation." 
 repository               : "yiyi-sun.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yi Sun"
   avatar           : "images/Yi_Photo.jpg"
-  bio              : "Research interests: well-being, social-emotional learning, emotion regulation, and teacher emotion."
+  bio              : "PhD candidate"
   location         : 
   employer         : "The Chinese University of Hong Kong"
   pubmed           : 
