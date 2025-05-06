@@ -23,10 +23,20 @@ I’m a PhD candidate in Education at The Chinese University of Hong Kong. From 
 
 I’ve always loved working with children, which is why I chose primary education as my undergraduate major without hesitation. However, as I continued on the path of educational research, I realized that teachers’ emotions and well-being are often greatly overlooked in schools. This made me wonder: how can unhappy teachers nurture happy students? While we constantly emphasize the importance of students’ social-emotional learning (SEL), do the teachers delivering SEL lessons themselves have enough social-emotional competence to support this kind of education? These questions led me to my PhD research topic: teachers’ well-being, emotion regulation, and stress. Through my research, I hope to better understand the emotional challenges teachers face in school settings and offer suggestions for creating a healthier work environment.
 
-I am primarily a quantitative education researcher, using surveys to explore the antecedents and outcomes of teacher well-being. I also focus on enhancing teachers’ social-emotional competence and psychological well-being through educational interventions. But that doesn’t mean my research is just “data-driven” or cold and impersonal. I believe that in education, behind every number is a person, and behind every analysis is a theory. My goal is to conduct research that is both meaningful and insightful—and this will always be my pursuit.
+I am primarily a quantitative education researcher, using surveys to explore the antecedents and outcomes of teacher well-being. I also focus on enhancing teachers’ psychological well-being through educational interventions. But that doesn’t mean my research is just “data-driven” or cold and impersonal. I believe that in education, behind every number is a person, and behind every analysis is a theory. My goal is to conduct research that is both meaningful and insightful, and this will always be my pursuit.
 
-Thank you, my friend, for taking the time to read my story. I look forward to meeting more like-minded collaborators as we journey together towards better education!
+Thank you for taking the time to read my story. I look forward to meeting more like-minded friends as we journey together towards better education!
 
+# ☀️ Research Interests
+My research interests are centered on **emotion regulation**, **well-being**, and **social-emotional learning** within school settings. I also focus on enhancing teachers’ and students’ social-emotional competence and psychological well-being through **educational interventions**.
+
+**Key Research Questions**:
+• What factors inﬂuence teachers’ and students’ emotion regulation and well-being?
+• How does emotion regulation function in the daily lives of teachers and students?
+• What factors facilitate or hinder teachers’ and students’ social-emotional learning?
+• What educational interventions can be designed to improve teachers’ and students’ social-emotional competence and their well-being?
+
+**Keywords**: Teacher emotion; Emotion regulation; Well-being; Social-emotional learning
 
 # 🔥 News
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
