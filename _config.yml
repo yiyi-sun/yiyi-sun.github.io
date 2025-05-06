@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yi Sun"
-description              : "Research interests: well-being, social-emotional learning, emotion regulation." 
+description              : "The Chinese University of Hong Kong" 
 repository               : "yiyi-sun.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -25,7 +25,7 @@ author:
   avatar           : "images/Yi_Photo.jpg"
   bio              : "PhD candidate"
   location         : 
-  employer         : "The Chinese University of Hong Kong"
+  employer         : 
   pubmed           : 
   email            : "sunyi.sy11@gmail.com"
   googlescholar    : "https://scholar.google.com/citations?user=W08A-soAAAAJ&hl=en"
