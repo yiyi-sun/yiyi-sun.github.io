@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yi Sun"
   avatar           : "images/Yi_Photo.jpg"
-  bio              : "The Chinese University of Hong Kong"
+  bio              : 
   location         : "Hong Kong"
   employer         : 
   pubmed           : 
@@ -34,7 +34,7 @@ author:
   linkedin         : "sunyiedu"
   twitter          : "Sunyisy"
   bluesky          : "sunyi-edu.bsky.social" # Replace this with you Bluesky username
-  uri              :
+  uri              : "The Chinese University of Hong Kong"
   bitbucket        :
   codepen          :
   dribbble         :
