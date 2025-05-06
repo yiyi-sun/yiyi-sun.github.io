@@ -25,7 +25,7 @@ author:
   avatar           : "images/Yi_Photo.jpg"
   bio              : 
   location         : "Hong Kong"
-  employer         : 
+  employer         : "The Chinese University of Hong Kong"
   pubmed           : 
   email            : "sunyi.sy11@gmail.com"
   googlescholar    : "https://scholar.google.com/citations?user=W08A-soAAAAJ&hl=en"
@@ -34,7 +34,7 @@ author:
   linkedin         : "sunyiedu"
   twitter          : "Sunyisy"
   bluesky          : "sunyi-edu.bsky.social" # Replace this with you Bluesky username
-  uri              : "The Chinese University of Hong Kong"
+  uri              : 
   bitbucket        :
   codepen          :
   dribbble         :
