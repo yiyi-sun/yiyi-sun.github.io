@@ -9,15 +9,9 @@ main:
   - title: "Publications"
     url: "/#-publications"
 
+  - title: "Conference Presentations & Posters"
+    url: "/#-conference-presentations--posters"
+
   - title: "News"
     url: "/#-news"
-
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
-
-  - title: "Education"
-    url: "/#-education"
-
-  - title: "Invited Talks"
-    url: "/#-invited-talks"
 
