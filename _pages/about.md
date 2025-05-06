@@ -20,7 +20,7 @@ redirect_from:
 
 Hi, it’s Yi here! 🙌
 
-I’m a PhD candidate at The Chinese University of Hong Kong. From undergraduate to postgraduate studies, all my degrees have been in education—so I’ve been in this field for ten years, and I’m committed to making it my lifelong career.
+I’m a PhD candidate at The Chinese University of Hong Kong. From undergraduate to postgraduate studies, all my degrees have been in education—I’ve been in this field for ten years, and I’m committed to making it my lifelong career.
 
 I’ve always loved working with children, which is why I chose primary education as my undergraduate major. However, as I continued on the path of educational research, I realized that teachers’ emotions and well-being are often overlooked in schools. This made me wonder: how can unhappy teachers nurture happy students? While we constantly emphasize the importance of students’ social-emotional learning (SEL), do teachers themselves have enough social-emotional competence to support this kind of education? These questions led me to my PhD research topic: teachers’ stress, emotion regulation, and well-being. Through my research, I hope to better understand the emotional challenges teachers face in school settings and offer suggestions for creating a healthier work environment.
 
