@@ -31,12 +31,21 @@ Thank you for taking the time to read my story. I look forward to meeting more l
 My research interests are centered on **emotion regulation**, **well-being**, and **social-emotional learning** within school settings. I also focus on enhancing teachers’ and students’ social-emotional competence and psychological well-being through **educational interventions**.
 
 **Key Research Questions**:
-• What factors inﬂuence teachers’ and students’ emotion regulation and well-being?
-• How does emotion regulation function in the daily lives of teachers and students?
-• What factors facilitate or hinder teachers’ and students’ social-emotional learning?
-• What educational interventions can be designed to improve teachers’ and students’ social-emotional competence and their well-being?
+- What factors inﬂuence teachers’ and students’ emotion regulation and well-being?
+- How does emotion regulation function in the daily lives of teachers and students?
+- What factors facilitate or hinder teachers’ and students’ social-emotional learning?
+- What educational interventions can be designed to improve teachers’ and students’ social-emotional competence and their well-being?
 
 **Keywords**: Teacher emotion; Emotion regulation; Well-being; Social-emotional learning
+
+# 📝 Publications 
+- **Sun, Y.**, & Yin, H. (2025). Profiles of teacher self-efficacy and their relations to teacher demographics and affective well-being: A social cognitive perspective. *Teaching and Teacher Education, 154*, 104855. [link](https://doi.org/10.1016/j.tate.2024.104855)
+- **Sun, Y.**, & Yin, H. (2024). Framing the theoretical perspectives on emotion regulation: A Habermasian typology and its implications for educational research. *Social Psychology of Education, 27*(3), 1117–1141. [link](https://doi.org/10.1007/s11218-023-09855-2) 
+- **Sun, Y.**, & Xiao, L. (2024). Research trends and hotspots of differentiated instruction over the past two decades (2000-2020): A bibliometric analysis. *Educational Studies, 50*(2), 186–202. [link](https://doi.org/10.1080/03055698.2021.1937945)
+- Yin, H., Jiang, W., & **Sun, Y.** (2025). Revisiting the research on teachers’ emotion regulation: A systematic review and future directions. *International Journal of Educational Research, 131*, 102615. [link](https://doi.org/10.1016/j.ijer.2025.102615)
+- Yin, H., & Sun, Y. (2024). Teacher professional learning communities in Chinese school contexts: Characteristics, effectiveness, and nature. *Journal of Northwest Normal University (Social Sciences).* (in Chinese) [中國學校情境中的教師專業學習社群：特點、成效與性質. 西北師⼤學報(社會科學版), 61(04), 91-99.] [link](https://doi.org/10.16783/j.cnki.nwnus.2024.04.010)
+
+
 
 # 🔥 News
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
