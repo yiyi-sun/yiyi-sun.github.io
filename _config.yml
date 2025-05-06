@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yi Sun"
-description              : "PhD Candidate"
+description              : 
 repository               : "yiyi-sun.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yi Sun"
   avatar           : "images/Yi_Photo.jpg"
-  bio              : 
+  bio              : "PhD Candidate"
   location         : "Hong Kong"
   employer         : "The Chinese University of Hong Kong"
   pubmed           : 
@@ -33,7 +33,7 @@ author:
   orcid            : "https://orcid.org/0000-0002-6374-5726"
   linkedin         : "sunyiedu"
   twitter          : "Sunyisy"
-  bluesky          : "sunyi-edu.bsky.social" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   uri              : 
   bitbucket        :
   codepen          :
