@@ -60,7 +60,7 @@ My research interests are centered on <span style="font-weight:bold; color:#4690
 - **Sun, Y.**, & Yin, H. (2024). *Profiles of teacher self-efficacy and their relations to teacher demographics and affective well-being: A social cognitive perspective.* ECNU-CUHK Joint Forum Positive Education Symposium, Shanghai, China. *(Best Poster Award)*
 
 # 👩🏻‍💻 Skills
-- **Data Analysis**: Proficient in R, Mplus, and SPSS for analyzing large and complex datasets, including multilevel modeling (HLM), multilevel structural equation modeling (MSEM), latent profile/class analysis (LPA/LCA), and structural equation modeling (SEM), etc.
+- **Data Analysis**: Proficient in R, Mplus, and SPSS for analyzing large and complex datasets, including multilevel modeling (MLM), multilevel structural equation modeling (MSEM), latent profile/class analysis (LPA/LCA), and structural equation modeling (SEM), etc.
 - **Languages**: English (Full Professional Proficiency); Chinese—Mandarin (Native), Cantonese (Limited Working Proficiency)
 
 # 🔥 News 
