@@ -50,7 +50,7 @@ My research interests are centered on <span style="font-weight:bold; color:#4690
 - <span style="font-weight:bold; color:#469035;">Sun, Y.</span>, & Xiao, L. (2021). Promoting teaching and learning: Improvement trends of state-mandated tests. *Enrollment and Examination in Hubei* (06), 44-49.(in Chinese) [促進教與學:美國州統考改進⽅向. *湖北招⽣考試 (06)*,44-49.] *(in Chinese)*
 - <span style="font-weight:bold; color:#469035;">Sun, Y.</span>, ＆ Deng, C. (2018). Exploring the deviant behaviors and their causes among left-behind children in hometowns of overseas Chinese: Based on investigation in Yuhu town and Li’ao street, Wenzhou city, Zhejiang province. *Teacher Education Forum, 10*, 67-70. (in Chinese)[僑鄉留守兒童偏差行為及其動因探析——基於浙江省溫州市玉壺鎮、麗 嶴街道兩地的調研. *教師教育論壇 (10)*,67-70.]] *(in Chinese)*
 
-## 🍀 Works in Progress
+## 🍄 Works in Progress
 - **Sun, Y.**, & Yin, H. The contagious relationship between principals’ stress and teachers’ occupational well-being: A multilevel meditation analysis. (*Teaching and Teacher Education*, revise and resubmit)
 - **Sun, Y.**, & Yin, H. Examining the relationships among daily job stressors, emotion regulation, and well-being in kindergarten teachers: A daily diary investigation (manuscripts in preparation)
 
