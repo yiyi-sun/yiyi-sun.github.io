@@ -12,6 +12,9 @@ main:
   - title: "Conferences"
     url: "/#-conferences"
 
+  - title: "Skills"
+    url: "/#-skills"
+
   - title: "News"
     url: "/#-news"
 
