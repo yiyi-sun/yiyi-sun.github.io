@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yi Sun"
-description              : #"The Chinese University of Hong Kong" 
+description              : "Research interests: emotion regulation, well-being, social-emotional learning,teacher emotion" 
 repository               : "yiyi-sun.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -33,7 +33,7 @@ author:
   orcid            : "https://orcid.org/0000-0002-6374-5726"
   linkedin         : "sunyiedu"
   twitter          : #"Sunyisy"
-  bluesky          : # Replace this with you Bluesky username
+  bluesky          : "sunyi-edu"# Replace this with you Bluesky username
   uri              : 
   bitbucket        :
   codepen          :
