@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yi Sun"
-description              : "The Chinese University of Hong Kong" 
+description              : #"The Chinese University of Hong Kong" 
 repository               : "yiyi-sun.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -25,14 +25,14 @@ author:
   avatar           : "images/Yi_Photo.jpg"
   bio              : "PhD candidate"
   location         : 
-  employer         : 
+  employer         : "CUHK"
   pubmed           : 
-  email            : "sunyi.sy11@gmail.com"
+  email            : "sunyi.research@gmail.com"
   googlescholar    : "https://scholar.google.com/citations?user=W08A-soAAAAJ&hl=en"
   researchgate     : "https://www.researchgate.net/profile/Yi_Sun55?ev=hdr_xprf"
   orcid            : "https://orcid.org/0000-0002-6374-5726"
   linkedin         : "sunyiedu"
-  twitter          : "Sunyisy"
+  twitter          : #"Sunyisy"
   bluesky          : # Replace this with you Bluesky username
   uri              : 
   bitbucket        :
