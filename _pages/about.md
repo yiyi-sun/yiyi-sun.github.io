@@ -24,7 +24,7 @@ I’m a PhD candidate at The Chinese University of Hong Kong. From undergraduate
 
 I’ve always loved working with children, which is why I chose primary education as my undergraduate major. However, as I continued on the path of educational research, I realized that teachers’ emotions and well-being are often overlooked in schools. This made me wonder: how can unhappy teachers nurture happy students? While we constantly emphasize the importance of students’ social-emotional learning (SEL), do teachers themselves have enough social-emotional competence to support this kind of education? These questions led me to my PhD research topic: teachers’ stress, emotion regulation, and well-being. Through my research, I hope to better understand the emotional challenges teachers face in school settings and offer suggestions for creating a healthier work environment.
 
-I prefer quantitative research methods, using questionnaire surveys to explore the antecedents and outcomes of teacher well-being. But that doesn’t mean my research is just “data-driven” or cold and impersonal. I believe that in educational research, every number represents a real person, and every analysis is rooted in a meaningful theory. My goal is always to do research that’s both meaningful and insightful—and that’s what I’ll keep striving for! 🦾🥰
+I prefer quantitative research methods, using questionnaire surveys to explore the antecedents and outcomes of teacher well-being. But that doesn’t mean my research is just “data-driven” or cold and impersonal. I believe that in educational research, every number represents a real person, and every analysis is rooted in a meaningful theory. My goal is always to do research that’s both meaningful and insightful, and that’s what I’ll keep striving for! 
 
 
 # 🌻 Research Interests
@@ -64,5 +64,6 @@ My research interests are centered on <span style="font-weight:bold; color:#4690
 - **Languages**: English (Full Professional Proficiency); Chinese—Mandarin (Native), Cantonese (Limited Working Proficiency)
 
 # 🔥 News 
-- *May, 2025*: &nbsp;🎉🎉 I have launched my personal website! I look forward to connecting with more researchers and educators. 👩‍🏫🌻
+- *Aug 14, 2025* &nbsp;🎉🎉 I successfully defended my PhD thesis today!
+- *May 6, 2025* &nbsp;🎉🎉 I have launched my personal website! I look forward to connecting with more researchers and educators. 👩‍🏫🌻
 
