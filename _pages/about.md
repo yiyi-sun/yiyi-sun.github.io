@@ -1,4 +1,4 @@
----
+<img width="468" height="236" alt="image" src="https://github.com/user-attachments/assets/68bef72c-ac62-4026-85b9-83ba6e8676af" /><img width="468" height="236" alt="image" src="https://github.com/user-attachments/assets/38aa078c-af0c-451f-b1a7-93f8e35b1fb2" /><img width="468" height="236" alt="image" src="https://github.com/user-attachments/assets/d6bbe841-c8c9-4a9e-ae41-f1b1731103f9" />---
 permalink: /
 title: ""
 excerpt: ""
@@ -17,14 +17,10 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+I am a Research Fellow at the National Institute of Education, Nanyang Technological University, Singapore. I obtained my Ph.D. in Education from The Chinese University of Hong Kong. My research focuses on emotion regulation, well-being, and social-emotional learning in school settings. I also focus on enhancing teachers’ and students’ social-emotional competence and psychological well-being through educational interventions.
 
-Hi, it’s Yi here! 🙌
+My current research interests center on adolescents’ peer networks and their relationships with academic, motivational, social, and emotional outcomes. Methodologically, I primarily conduct quantitative research using a range of advanced analytical approaches. My work has been published in international peer-reviewed journals, including *Teaching and Teacher Education*, *Social Psychology of Education*, and *International Journal of Educational Research*.
 
-I’m a PhD candidate at The Chinese University of Hong Kong. From undergraduate to postgraduate studies, all my degrees have been in education—I’ve been in this field for ten years, and I’m committed to making it my lifelong career.
-
-I’ve always loved working with children, which is why I chose primary education as my undergraduate major. However, as I continued on the path of educational research, I realized that teachers’ emotions and well-being are often overlooked in schools. This made me wonder: how can unhappy teachers nurture happy students? While we constantly emphasize the importance of students’ social-emotional learning (SEL), do teachers themselves have enough social-emotional competence to support this kind of education? These questions led me to my PhD research topic: teachers’ stress, emotion regulation, and well-being. Through my research, I hope to better understand the emotional challenges teachers face in school settings and offer suggestions for creating a healthier work environment.
-
-I prefer quantitative research methods, using questionnaire surveys to explore the antecedents and outcomes of teacher well-being. But that doesn’t mean my research is just “data-driven” or cold and impersonal. I believe that in educational research, every number represents a real person, and every analysis is rooted in a meaningful theory. My goal is always to do research that’s both meaningful and insightful, and that’s what I’ll keep striving for! 
 
 
 # 🌻 Research Interests
@@ -63,7 +59,8 @@ My research interests are centered on <span style="font-weight:bold; color:#4690
 - **Data Analysis**: Proficient in R, Mplus, and SPSS for analyzing large and complex datasets, including multilevel modeling (MLM), multilevel structural equation modeling (MSEM), latent profile/class analysis (LPA/LCA), and structural equation modeling (SEM), etc.
 - **Languages**: English (Full Professional Proficiency); Chinese—Mandarin (Native), Cantonese (Limited Working Proficiency)
 
-# 🔥 News 
-- *Aug 14, 2025* &nbsp;🎉🎉 I successfully defended my PhD thesis today!
-- *May 6, 2025* &nbsp;🎉🎉 I have launched my personal website! I look forward to connecting with more researchers and educators. 👩‍🏫🌻
+# 🔥 News
+- *Dec 1, 2025* I'm starting a new position as Research Fellow at NIE!
+- *Aug 14, 2025* I successfully defended my PhD thesis today!
+- *May 6, 2025* I have launched my personal website! I look forward to connecting with more researchers and educators. 
 
