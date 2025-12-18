@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yi Sun"
-description              : "Research Fellow" 
+description              : "Research on well-being, emotion regulation, social-emotional learning, and social networks." 
 repository               : "yiyi-sun.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yi Sun"
   avatar           : "images/Yi_Photo.jpg"
-  bio              : "Research on well-being, emotion regulation, social-emotional learning, and social networks."
+  bio              : "Research Fellow"
   location         : "Singapore"
   employer         : "National Institute of Education,<br>Nanyang Technological University"
   pubmed           : 
