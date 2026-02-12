@@ -27,8 +27,8 @@ My current research interests center on adolescents’ peer networks and their r
 My research focuses on broader <span style="font-weight:bold; color:#469035;">well-being</span> topics within school settings and follows two main lines of inquiry:
 *  <span style="font-weight:bold; color:#469035;">Teacher emotion:</span> factors associated with teachers’ emotion regulation and professional well-being; how emotion regulation functions in teachers’ day-to-day professional lives; and the design of educational interventions to support teachers’ social-emotional competence
 *  <span style="font-weight:bold; color:#469035;">Adolescent social networks:</span> the longitudinal dynamics of peer relationships, including how students' social relationships evolve over time, the contextual factors that shape peer relationships, and how peer network attributes are associated with students' academic, motivational, social, and emotional outcomes. 
-**Keywords**:
-* Well-being, teacher emotion, emotion regulation, social-emotional learning, social networks, peer relations, professional development, adolescents, longitudinal study
+
+**Keywords:** Well-being, teacher emotion, emotion regulation, social-emotional learning, social networks, peer relations, professional development, adolescents, longitudinal study
 
 # 📝 Publications
 ## ✿ Peer-Reviewed Articles <span style="font-size:0.9em;">(*corresponding author)</span>
