@@ -1,0 +1,412 @@
+/* ============================
+   Base Styles
+   ============================ */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+
+body {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #0f172a;
+    background-color: #f8fafc;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+em, i:not(.fas):not(.fab):not(.ai) {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Helvetica, sans-serif;
+    font-style: italic;
+}
+
+/* ============================
+   Glassmorphism Navigation
+   ============================ */
+.glass {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.03);
+}
+
+.nav-item {
+    position: relative;
+    font-weight: 500;
+    color: #475569;
+    transition: color 0.2s;
+}
+
+.nav-item:hover {
+    color: #1e293b;
+}
+
+.nav-item::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: #d4a562;
+    transition: width 0.3s ease;
+}
+
+.nav-item:hover::after {
+    width: 100%;
+}
+
+/* ============================
+   Profile / Sidebar
+   ============================ */
+.profile-image-container {
+    position: relative;
+    z-index: 10;
+}
+
+/* ============================
+   Section Styling
+   ============================ */
+section {
+    position: relative;
+}
+
+.section-header h2 {
+    position: relative;
+    display: inline-block;
+}
+
+.section-header h2::after {
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    width: 40%;
+    height: 3px;
+    background-color: rgba(212, 165, 98, 0.3);
+    z-index: -1;
+}
+
+/* ============================
+   Main Layout Grid
+   ============================ */
+.grid-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+@media (min-width: 1024px) {
+    .grid-layout {
+        grid-template-columns: 320px 1fr;
+        gap: 4rem;
+        align-items: start;
+    }
+
+    .profile-column {
+        position: sticky;
+        top: 6rem;
+        align-self: start;
+    }
+}
+
+/* ============================
+   Cards
+   ============================ */
+.news-card, .research-card, .contact-card {
+    transition: all 0.3s ease;
+}
+
+.news-card:hover, .research-card:hover, .contact-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    border-color: #cbd5e1;
+}
+
+/* ============================
+   Global Scrollbar
+   ============================ */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
+
+/* ============================
+   Utility Classes
+   ============================ */
+.text-accent {
+    color: #d4a562;
+}
+
+.bg-accent {
+    background-color: #d4a562;
+}
+
+.border-accent {
+    border-color: #d4a562;
+}
+
+.hover\:text-accent:hover {
+    color: #d4a562;
+}
+
+/* Link Highlight */
+.link-highlight {
+    color: #d4a562;
+    text-decoration: underline;
+}
+
+.link-highlight:hover {
+    color: #b88a4d;
+}
+
+/* ============================
+   Publication Styles
+   ============================ */
+.pub-year-group {
+    margin-bottom: 1rem;
+}
+
+.pub-year-header {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 0.05em;
+    color: #1e293b;
+    margin-bottom: 0.6rem;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 0.25rem;
+    display: inline-block;
+}
+
+.pub-section-header {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-top: 1.25rem;
+    margin-bottom: 0.6rem;
+    padding-bottom: 0.25rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.pub-section-header:first-child {
+    margin-top: 0;
+}
+
+.pub-list-ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+.pub-list-item {
+    margin-bottom: 0.3rem;
+    line-height: 1.5;
+    font-size: 16px;
+    color: #334155;
+}
+
+.pub-list-item em {
+    font-style: italic;
+}
+
+.pub-list-item .pub-doi-link {
+    display: inline-block;
+    font-size: 0.8125rem;
+    padding: 0.05rem 0.4rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 4px;
+    color: #475569;
+    margin-left: 0.25rem;
+    text-decoration: none;
+    transition: all 0.2s;
+    background-color: white;
+}
+
+.pub-list-item .pub-doi-link:hover {
+    border-color: #d4a562;
+    color: #d4a562;
+    background-color: #fffbeb;
+}
+
+.pub-reprint {
+    font-size: 0.8125rem;
+    color: #64748b;
+    margin-top: 0.1rem;
+}
+
+/* Author name highlight */
+.author-highlight {
+    color: #d4a562;
+    font-weight: 700;
+}
+
+/* ============================
+   News Section - Scrollable
+   ============================ */
+.news-scroll-wrapper {
+    position: relative;
+}
+
+.news-scroll-container {
+    max-height: 320px;
+    overflow-y: auto;
+    padding-right: 0.5rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.75rem;
+    padding: 1rem;
+    background: #fafbfc;
+}
+
+.news-scroll-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.news-scroll-container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.news-scroll-container::-webkit-scrollbar-thumb {
+    background: #d4a562;
+    border-radius: 3px;
+}
+
+.news-scroll-container::-webkit-scrollbar-thumb:hover {
+    background: #b88a4d;
+}
+
+.news-item {
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    gap: 1rem;
+    align-items: baseline;
+    padding-bottom: 0.3rem;
+    margin-bottom: 0.3rem;
+    border-bottom: 1px dashed #e2e8f0;
+}
+
+.news-date {
+    font-weight: 500;
+    font-size: 0.8125rem;
+    color: #64748b;
+    white-space: nowrap;
+}
+
+.news-content {
+    font-size: 16px;
+    color: #334155;
+    line-height: 1.5;
+}
+
+.news-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+/* Scroll hint */
+.scroll-hint {
+    text-align: right;
+    font-size: 0.8125rem;
+    color: #64748b;
+    padding-bottom: 0.3rem;
+}
+
+/* ============================
+   Consistent Text Sizes
+   ============================ */
+.prose p,
+.timeline-content p,
+.thrust-card p,
+.contact-card p,
+.contact-card li {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+/* Tighter paragraph spacing */
+.prose p {
+    margin-bottom: 0.4rem;
+}
+
+/* Timeline items tighter spacing */
+.timeline.space-y-4 > * + * {
+    margin-top: 0.6rem;
+}
+
+/* ============================
+   Contact Form
+   ============================ */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.6rem 0.75rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.5rem;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 15px;
+    color: #334155;
+    background: white;
+    transition: border-color 0.2s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #d4a562;
+    box-shadow: 0 0 0 2px rgba(212, 165, 98, 0.15);
+}
+
+.contact-form label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #64748b;
+    margin-bottom: 0.3rem;
+}
+
+.contact-form button {
+    background-color: #d4a562;
+    color: white;
+    padding: 0.6rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.contact-form button:hover {
+    background-color: #b88a4d;
+}
+
+/* ============================
+   Mobile Layout
+   ============================ */
+@media (max-width: 640px) {
+    .news-item {
+        grid-template-columns: 80px 1fr;
+        gap: 0.75rem;
+    }
+}
+
+/* Research interest card text justify */
+.thrust-card p {
+    text-align: justify;
+}
