@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Sun rays -->
+  <g stroke="#F4A020" stroke-width="36" stroke-linecap="round">
+    <line x1="256" y1="40" x2="256" y2="110"/>
+    <line x1="256" y1="402" x2="256" y2="472"/>
+    <line x1="40" y1="256" x2="110" y2="256"/>
+    <line x1="402" y1="256" x2="472" y2="256"/>
+    <line x1="103" y1="103" x2="153" y2="153"/>
+    <line x1="359" y1="359" x2="409" y2="409"/>
+    <line x1="409" y1="103" x2="359" y2="153"/>
+    <line x1="153" y1="359" x2="103" y2="409"/>
+  </g>
+  <!-- Sun center -->
+  <circle cx="256" cy="256" r="110" fill="#FCBF2D"/>
+  <circle cx="256" cy="256" r="95" fill="#F9D855"/>
+</svg>
