@@ -114,6 +114,33 @@ section {
     }
 }
 
+/* Tighten the sticky left column on shorter viewports (e.g., laptops/ThinkPads) */
+/* so the scroll fallback rarely triggers. Mac/larger screens are unaffected. */
+@media (max-height: 850px) and (min-width: 1024px) {
+    .profile-card .profile-image-container {
+        max-width: 160px;
+        margin-bottom: 1rem;
+    }
+
+    .profile-card > .text-center {
+        margin-bottom: 1rem;
+    }
+
+    .profile-card .social-links {
+        margin-bottom: 1rem;
+    }
+
+    .profile-card .research-interests-card {
+        padding: 1rem;
+        margin-bottom: 0;
+    }
+
+    .research-interests-card h3 {
+        margin-bottom: 0.75rem;
+        padding-bottom: 0.25rem;
+    }
+}
+
 /* ============================
    Cards
    ============================ */
