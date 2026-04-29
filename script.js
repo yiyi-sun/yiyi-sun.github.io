@@ -116,7 +116,7 @@ function loadPublications() {
             const categoryOrder = [
                 'Peer-Reviewed Articles',
                 'Manuscripts Under Review',
-                'Conference Presentations',
+                'Conference Papers',
                 'Book Chapters',
                 'Graduate Theses'
             ];
@@ -182,6 +182,11 @@ function loadPublications() {
                         // Add reprint note
                         if (pub.reprint) {
                             html += `<div class="pub-reprint">\ud83c\udfc6 ${pub.reprint}</div>`;
+                        }
+
+                        // Add award note (renders like reprint)
+                        if (pub.award) {
+                            html += `<div class="pub-reprint">\ud83c\udfc6 ${pub.award}</div>`;
                         }
 
                         li.innerHTML = html;
