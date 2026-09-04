@@ -21,9 +21,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Load publications
     loadPublications();
 
-    // Load experience (Teaching & Service)
-    loadExperience();
-
     // Smooth scrolling for navigation links
     const navLinks = document.querySelectorAll('.nav-links a');
 
@@ -107,6 +104,7 @@ function loadPublications() {
             // Group by category first, then by year within each category
             const categories = {};
             publications.forEach(pub => {
+                if (pub.hidden) return; // set "hidden": true on an entry in publications.json to hide it temporarily
                 const cat = pub.category || 'Peer-Reviewed Articles';
                 if (!categories[cat]) categories[cat] = [];
                 categories[cat].push(pub);
@@ -116,7 +114,7 @@ function loadPublications() {
             const categoryOrder = [
                 'Peer-Reviewed Articles',
                 'Manuscripts Under Review',
-                'Conference Papers',
+                'Conference Presentations',
                 'Book Chapters',
                 'Graduate Theses'
             ];
@@ -179,14 +177,10 @@ function loadPublications() {
                             });
                         }
 
-                        // Add reprint note
-                        if (pub.reprint) {
-                            html += `<div class="pub-reprint">\ud83c\udfc6 ${pub.reprint}</div>`;
-                        }
-
-                        // Add award note (renders like reprint)
-                        if (pub.award) {
-                            html += `<div class="pub-reprint">\ud83c\udfc6 ${pub.award}</div>`;
+                        // Add reprint / award note (grey line below the citation)
+                        const note = pub.note || pub.reprint;
+                        if (note) {
+                            html += `<div class="pub-reprint">\ud83c\udfc6 ${note}</div>`;
                         }
 
                         li.innerHTML = html;
@@ -201,73 +195,6 @@ function loadPublications() {
         .catch(error => {
             console.error('Error loading publications data:', error);
             publicationsList.innerHTML = '<p>Failed to load publications.</p>';
-        });
-}
-
-// Load Teaching & Service experience grouped by category
-function loadExperience() {
-    let path = 'data/experience.json';
-    if (window.location.pathname.includes('/pages/')) {
-        path = '../data/experience.json';
-    }
-    const list = document.querySelector('.experience-list');
-    if (!list) return;
-
-    list.innerHTML = '';
-
-    fetch(path)
-        .then(response => {
-            if (!response.ok) throw new Error('Network response was not ok');
-            return response.json();
-        })
-        .then(data => {
-            const categoryOrder = [
-                'Instructional Experience',
-                'Professional Service'
-            ];
-
-            const categories = {};
-            data.forEach(item => {
-                const cat = item.category || 'Other';
-                if (!categories[cat]) categories[cat] = [];
-                categories[cat].push(item);
-            });
-
-            categoryOrder.forEach(cat => {
-                if (!categories[cat] || !categories[cat].length) return;
-
-                const header = document.createElement('h3');
-                header.className = 'pub-section-header';
-                header.textContent = cat;
-                list.appendChild(header);
-
-                const timeline = document.createElement('div');
-                timeline.className = 'timeline space-y-4 mb-6';
-
-                categories[cat].forEach(item => {
-                    const entry = document.createElement('div');
-                    entry.className = 'timeline-item flex gap-4';
-                    entry.innerHTML = `
-                        <div class="school-logo-container w-16 h-16 flex-shrink-0 bg-white rounded-lg shadow-sm p-2 flex items-center justify-center border border-neutral-100 text-2xl text-accent">
-                            <i class="fas ${item.icon || 'fa-circle'}"></i>
-                        </div>
-                        <div class="timeline-content">
-                            <h4 class="font-semibold text-primary">${item.title}</h4>
-                            <p class="text-[16px] text-neutral-600 leading-relaxed">
-                                <span class="text-accent font-medium">${item.date}</span> &#183;
-                                ${item.content}
-                            </p>
-                        </div>
-                    `;
-                    timeline.appendChild(entry);
-                });
-
-                list.appendChild(timeline);
-            });
-        })
-        .catch(error => {
-            console.error('Error loading experience data:', error);
-            list.innerHTML = '<p>Failed to load experience.</p>';
         });
 }
 
