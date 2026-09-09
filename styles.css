@@ -2,6 +2,7 @@
    Base Styles
    ============================ */
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
 body {
     font-family: 'Source Sans 3', 'Helvetica Neue', Helvetica, sans-serif;
@@ -439,4 +440,127 @@ section {
 /* Research interest card text justify */
 .thrust-card p {
     text-align: justify;
+}
+
+/* ============================
+   Contact: Kat Kat sticker
+   ============================ */
+.kat-sticker {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    cursor: pointer;
+    transition: transform 0.35s ease;
+    animation: kat-float 5s ease-in-out infinite;
+}
+
+.kat-sticker:hover,
+.kat-sticker:focus-visible {
+    transform: rotate(-4deg) scale(1.04);
+    outline: none;
+}
+
+.kat-img {
+    display: block;
+    width: 150px;
+    height: auto;
+    max-width: 100%;
+    /* white sticker outline + soft shadow, drawn around the transparent cut-out */
+    filter: drop-shadow(3px 0 0 #fff) drop-shadow(-3px 0 0 #fff)
+            drop-shadow(0 3px 0 #fff) drop-shadow(0 -3px 0 #fff)
+            drop-shadow(2px 2px 0 #fff) drop-shadow(-2px -2px 0 #fff)
+            drop-shadow(2px -2px 0 #fff) drop-shadow(-2px 2px 0 #fff)
+            drop-shadow(0 8px 14px rgba(15, 23, 42, 0.14));
+}
+
+.kat-bubble {
+    position: absolute;
+    top: 6px;
+    left: -14px;
+    background: #fdf6ea;
+    border: 1px solid #e6cfa6;
+    border-radius: 999px;
+    padding: 0.1rem 0.65rem;
+    font-family: 'Patrick Hand', 'Source Sans 3', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 15px;
+    color: #8a6a3a;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+    white-space: nowrap;
+    pointer-events: none;
+    opacity: 0;
+    transform: translateY(6px) scale(0.9);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.kat-sticker:hover .kat-bubble,
+.kat-sticker:focus-visible .kat-bubble {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+.kat-sticker { flex-shrink: 0; }
+
+.contact-card .kat-caption {
+    margin: 0;
+    font-family: 'Patrick Hand', 'Source Sans 3', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.35;
+    color: #475569;
+    text-align: left;
+}
+
+/* speech bubble with a tail pointing at the photo */
+.kat-speech {
+    position: relative;
+    flex: 1 1 auto;
+    background: #fdf6ea;
+    border: 1px solid #e6cfa6;
+    border-radius: 20px;
+    padding: 0.65rem 0.95rem;
+    box-shadow: 0 3px 8px rgba(212, 165, 98, 0.18);
+    transform-origin: left center;
+    transform: rotate(-3deg);
+    transition: transform 0.35s ease;
+}
+
+.kat-corner:hover .kat-speech {
+    transform: rotate(-3deg) scale(1.03);
+}
+
+.kat-speech::before,
+.kat-speech::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    transform: translateY(-50%);
+}
+
+.kat-speech::before {
+    left: -10px;
+    border-width: 9px 10px 9px 0;
+    border-color: transparent #e6cfa6 transparent transparent;
+}
+
+.kat-speech::after {
+    left: -8px;
+    border-width: 8px 9px 8px 0;
+    border-color: transparent #fdf6ea transparent transparent;
+}
+
+@keyframes kat-float {
+    0%, 100% { translate: 0 0; }
+    50% { translate: 0 -5px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .kat-sticker, .kat-speech { animation: none; transition: none; }
+}
+
+@media (max-width: 640px) {
+    .kat-img { width: 125px; }
+    .contact-card .kat-caption { font-size: 15px; }
+    .kat-speech { padding: 0.55rem 0.8rem; }
 }
