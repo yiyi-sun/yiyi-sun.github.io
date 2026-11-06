@@ -4,10 +4,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
+/* ============================
+   Color tokens
+   Every color on the site comes from here.
+   ============================ */
+:root {
+    color-scheme: light;
+    --background: 254 255 254;
+    --foreground: 22 32 27;
+    --primary: 31 42 37;
+    --accent: 47 107 79;
+    --accent-dark: 36 84 62;
+    --on-accent: 255 255 255;
+    --surface: 255 255 255;
+    --n-50: 247 249 247;
+    --n-100: 241 245 242;
+    --n-200: 226 232 227;
+    --n-300: 204 213 207;
+    --n-400: 150 161 154;
+    --n-500: 100 112 105;
+    --n-600: 75 87 80;
+    --n-700: 56 67 61;
+    --bubble-bg: 238 245 240;
+    --bubble-border: 197 217 204;
+    --bubble-text: 47 90 69;
+    --glass-border: 255 255 255 / 0.3;
+    --glass-shadow: 0 0 0 / 0.03;
+}
+
+[data-theme="dark"] {
+    color-scheme: dark;
+    --background: 16 22 19;
+    --foreground: 223 232 226;
+    --primary: 231 239 233;
+    --accent: 124 199 160;
+    --accent-dark: 154 214 182;
+    --on-accent: 16 22 19;
+    --surface: 24 32 28;
+    --n-50: 24 32 28;
+    --n-100: 33 44 38;
+    --n-200: 46 58 51;
+    --n-300: 64 78 70;
+    --n-400: 122 138 128;
+    --n-500: 154 168 159;
+    --n-600: 183 195 187;
+    --n-700: 204 214 207;
+    --bubble-bg: 30 42 36;
+    --bubble-border: 58 79 67;
+    --bubble-text: 191 224 205;
+    --glass-border: 255 255 255 / 0.06;
+    --glass-shadow: 0 0 0 / 0.25;
+}
+
 body {
     font-family: 'Source Sans 3', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #0f172a;
-    background-color: #f8fafc;
+    color: rgb(var(--foreground));
+    background-color: rgb(var(--background));
     line-height: 1.6;
     font-size: 16px;
 }
@@ -25,22 +77,22 @@ em, i:not(.fas):not(.fab):not(.ai) {
    Glassmorphism Navigation
    ============================ */
 .glass {
-    background: rgba(255, 255, 255, 0.85);
+    background: rgb(var(--background) / 0.85);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgb(var(--glass-border));
+    box-shadow: 0 4px 30px rgb(var(--glass-shadow));
 }
 
 .nav-item {
     position: relative;
     font-weight: 500;
-    color: #475569;
+    color: rgb(var(--n-600));
     transition: color 0.2s;
 }
 
 .nav-item:hover {
-    color: #1e293b;
+    color: rgb(var(--primary));
 }
 
 .nav-item::after {
@@ -50,12 +102,82 @@ em, i:not(.fas):not(.fab):not(.ai) {
     height: 2px;
     bottom: -4px;
     left: 0;
-    background-color: #d4a562;
+    background-color: rgb(var(--accent));
     transition: width 0.3s ease;
 }
 
-.nav-item:hover::after {
+.nav-item:hover::after,
+.nav-item.active::after {
     width: 100%;
+}
+
+.nav-item.active {
+    color: rgb(var(--primary));
+}
+
+/* ============================
+   Social links and keyboard focus
+   ============================ */
+.social-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    color: rgb(var(--n-600));
+    transition: color 0.2s;
+}
+
+.social-btn:hover {
+    color: rgb(var(--accent));
+}
+
+a:focus-visible,
+button:focus-visible,
+.kat-sticker:focus-visible {
+    outline: 2px solid rgb(var(--accent));
+    outline-offset: 2px;
+}
+
+::selection {
+    background: rgb(var(--accent) / 0.2);
+}
+
+.thrust-card:hover {
+    border-color: rgb(var(--n-200));
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+}
+
+/* ============================
+   Light / dark switch
+   ============================ */
+.theme-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 0.5rem;
+    color: rgb(var(--n-600));
+    transition: color 0.2s, background-color 0.2s;
+}
+
+.theme-toggle:hover {
+    color: rgb(var(--primary));
+    background-color: rgb(var(--n-100));
+}
+
+.theme-switching * {
+    transition: none !important;
+}
+
+[data-theme="dark"] .theme-icon-moon,
+:root:not([data-theme="dark"]) .theme-icon-sun {
+    display: none;
 }
 
 /* ============================
@@ -85,7 +207,7 @@ section {
     left: 0;
     width: 40%;
     height: 3px;
-    background-color: rgba(212, 165, 98, 0.3);
+    background-color: rgb(var(--accent) / 0.3);
     z-index: -1;
 }
 
@@ -143,19 +265,6 @@ section {
 }
 
 /* ============================
-   Cards
-   ============================ */
-.news-card, .research-card, .contact-card {
-    transition: all 0.3s ease;
-}
-
-.news-card:hover, .research-card:hover, .contact-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-    border-color: #cbd5e1;
-}
-
-/* ============================
    Global Scrollbar
    ============================ */
 ::-webkit-scrollbar {
@@ -163,45 +272,29 @@ section {
 }
 
 ::-webkit-scrollbar-track {
-    background: #f1f5f9;
+    background: rgb(var(--n-100));
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #cbd5e1;
+    background: rgb(var(--n-300));
     border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #94a3b8;
+    background: rgb(var(--n-400));
 }
 
 /* ============================
    Utility Classes
    ============================ */
-.text-accent {
-    color: #d4a562;
-}
-
-.bg-accent {
-    background-color: #d4a562;
-}
-
-.border-accent {
-    border-color: #d4a562;
-}
-
-.hover\:text-accent:hover {
-    color: #d4a562;
-}
-
 /* Link Highlight */
 .link-highlight {
-    color: #d4a562;
+    color: rgb(var(--accent));
     text-decoration: underline;
 }
 
 .link-highlight:hover {
-    color: #b88a4d;
+    color: rgb(var(--accent-dark));
 }
 
 /* ============================
@@ -217,9 +310,9 @@ section {
     font-weight: 700;
     font-style: italic;
     letter-spacing: 0.05em;
-    color: #1e293b;
+    color: rgb(var(--primary));
     margin-bottom: 0.6rem;
-    border-bottom: 2px solid #e2e8f0;
+    border-bottom: 2px solid rgb(var(--n-200));
     padding-bottom: 0.25rem;
     display: inline-block;
 }
@@ -228,11 +321,11 @@ section {
     font-family: 'Source Sans 3', sans-serif;
     font-size: 1.1rem;
     font-weight: 700;
-    color: #1e293b;
+    color: rgb(var(--primary));
     margin-top: 1.25rem;
     margin-bottom: 0.6rem;
     padding-bottom: 0.25rem;
-    border-bottom: 1px solid #e2e8f0;
+    border-bottom: 1px solid rgb(var(--n-200));
 }
 
 .pub-section-header:first-child {
@@ -248,7 +341,7 @@ section {
     margin-bottom: 0.3rem;
     line-height: 1.5;
     font-size: 16px;
-    color: #334155;
+    color: rgb(var(--n-700));
 }
 
 .pub-list-item em {
@@ -259,30 +352,30 @@ section {
     display: inline-block;
     font-size: 0.8125rem;
     padding: 0.05rem 0.4rem;
-    border: 1px solid #cbd5e1;
+    border: 1px solid rgb(var(--n-300));
     border-radius: 4px;
-    color: #475569;
+    color: rgb(var(--n-600));
     margin-left: 0.25rem;
     text-decoration: none;
     transition: all 0.2s;
-    background-color: white;
+    background-color: rgb(var(--surface));
 }
 
 .pub-list-item .pub-doi-link:hover {
-    border-color: #d4a562;
-    color: #d4a562;
-    background-color: #fffbeb;
+    border-color: rgb(var(--accent));
+    color: rgb(var(--accent));
+    background-color: rgb(var(--accent) / 0.08);
 }
 
 .pub-reprint {
     font-size: 0.8125rem;
-    color: #64748b;
+    color: rgb(var(--n-500));
     margin-top: 0.1rem;
 }
 
 /* Author name highlight */
 .author-highlight {
-    color: #d4a562;
+    color: rgb(var(--accent));
     font-weight: 700;
 }
 
@@ -297,10 +390,10 @@ section {
     max-height: 320px;
     overflow-y: auto;
     padding-right: 0.5rem;
-    border: 1px solid #e2e8f0;
+    border: 1px solid rgb(var(--n-200));
     border-radius: 0.75rem;
     padding: 1rem;
-    background: #fafbfc;
+    background: rgb(var(--n-50));
 }
 
 .news-scroll-container::-webkit-scrollbar {
@@ -312,12 +405,12 @@ section {
 }
 
 .news-scroll-container::-webkit-scrollbar-thumb {
-    background: #d4a562;
+    background: rgb(var(--accent));
     border-radius: 3px;
 }
 
 .news-scroll-container::-webkit-scrollbar-thumb:hover {
-    background: #b88a4d;
+    background: rgb(var(--accent-dark));
 }
 
 .news-item {
@@ -327,19 +420,19 @@ section {
     align-items: baseline;
     padding-bottom: 0.3rem;
     margin-bottom: 0.3rem;
-    border-bottom: 1px dashed #e2e8f0;
+    border-bottom: 1px dashed rgb(var(--n-200));
 }
 
 .news-date {
     font-weight: 500;
     font-size: 0.8125rem;
-    color: #64748b;
+    color: rgb(var(--n-500));
     white-space: nowrap;
 }
 
 .news-content {
     font-size: 16px;
-    color: #334155;
+    color: rgb(var(--n-700));
     line-height: 1.5;
 }
 
@@ -352,7 +445,7 @@ section {
 .scroll-hint {
     text-align: right;
     font-size: 0.8125rem;
-    color: #64748b;
+    color: rgb(var(--n-500));
     padding-bottom: 0.3rem;
 }
 
@@ -382,37 +475,43 @@ section {
 /* ============================
    Contact Form
    ============================ */
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: rgb(var(--n-500));
+    opacity: 1;
+}
+
 .contact-form input,
 .contact-form textarea {
     width: 100%;
     padding: 0.6rem 0.75rem;
-    border: 1px solid #e2e8f0;
+    border: 1px solid rgb(var(--n-200));
     border-radius: 0.5rem;
     font-family: 'Source Sans 3', sans-serif;
     font-size: 15px;
-    color: #334155;
-    background: white;
+    color: rgb(var(--n-700));
+    background: rgb(var(--surface));
     transition: border-color 0.2s;
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
     outline: none;
-    border-color: #d4a562;
-    box-shadow: 0 0 0 2px rgba(212, 165, 98, 0.15);
+    border-color: rgb(var(--accent));
+    box-shadow: 0 0 0 2px rgb(var(--accent) / 0.2);
 }
 
 .contact-form label {
     display: block;
     font-size: 14px;
     font-weight: 500;
-    color: #64748b;
+    color: rgb(var(--n-500));
     margin-bottom: 0.3rem;
 }
 
 .contact-form button {
-    background-color: #d4a562;
-    color: white;
+    background-color: rgb(var(--accent));
+    color: rgb(var(--on-accent));
     padding: 0.6rem 1.5rem;
     border: none;
     border-radius: 0.5rem;
@@ -424,7 +523,7 @@ section {
 }
 
 .contact-form button:hover {
-    background-color: #b88a4d;
+    background-color: rgb(var(--accent-dark));
 }
 
 /* ============================
@@ -435,11 +534,6 @@ section {
         grid-template-columns: 80px 1fr;
         gap: 0.75rem;
     }
-}
-
-/* Research interest card text justify */
-.thrust-card p {
-    text-align: justify;
 }
 
 /* ============================
@@ -457,7 +551,6 @@ section {
 .kat-sticker:hover,
 .kat-sticker:focus-visible {
     transform: rotate(-4deg) scale(1.04);
-    outline: none;
 }
 
 .kat-img {
@@ -477,13 +570,13 @@ section {
     position: absolute;
     top: 6px;
     left: -14px;
-    background: #fdf6ea;
-    border: 1px solid #e6cfa6;
+    background: rgb(var(--bubble-bg));
+    border: 1px solid rgb(var(--bubble-border));
     border-radius: 999px;
     padding: 0.1rem 0.65rem;
     font-family: 'Patrick Hand', 'Source Sans 3', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 15px;
-    color: #8a6a3a;
+    color: rgb(var(--bubble-text));
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
     white-space: nowrap;
     pointer-events: none;
@@ -505,7 +598,7 @@ section {
     font-family: 'Patrick Hand', 'Source Sans 3', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.35;
-    color: #475569;
+    color: rgb(var(--n-600));
     text-align: left;
 }
 
@@ -513,11 +606,11 @@ section {
 .kat-speech {
     position: relative;
     flex: 1 1 auto;
-    background: #fdf6ea;
-    border: 1px solid #e6cfa6;
+    background: rgb(var(--bubble-bg));
+    border: 1px solid rgb(var(--bubble-border));
     border-radius: 20px;
     padding: 0.65rem 0.95rem;
-    box-shadow: 0 3px 8px rgba(212, 165, 98, 0.18);
+    box-shadow: 0 3px 8px rgb(var(--accent) / 0.12);
     transform-origin: left center;
     transform: rotate(-3deg);
     transition: transform 0.35s ease;
@@ -541,13 +634,13 @@ section {
 .kat-speech::before {
     left: -10px;
     border-width: 9px 10px 9px 0;
-    border-color: transparent #e6cfa6 transparent transparent;
+    border-color: transparent rgb(var(--bubble-border)) transparent transparent;
 }
 
 .kat-speech::after {
     left: -8px;
     border-width: 8px 9px 8px 0;
-    border-color: transparent #fdf6ea transparent transparent;
+    border-color: transparent rgb(var(--bubble-bg)) transparent transparent;
 }
 
 @keyframes kat-float {

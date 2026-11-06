@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     makeAllLinksOpenInNewTab();
     setupLinkObserver();
+    setupThemeToggle();
 
     // Mobile Menu Toggle
     const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
@@ -8,12 +9,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
     if (mobileMenuBtn && mobileMenu) {
         mobileMenuBtn.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
+            const isHidden = mobileMenu.classList.toggle('hidden');
+            mobileMenuBtn.setAttribute('aria-expanded', String(!isHidden));
         });
         const mobileLinks = mobileMenu.querySelectorAll('a');
         mobileLinks.forEach(link => {
             link.addEventListener('click', () => {
                 mobileMenu.classList.add('hidden');
+                mobileMenuBtn.setAttribute('aria-expanded', 'false');
             });
         });
     }
@@ -42,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Update active nav link on scroll
-    window.addEventListener('scroll', function() {
+    function updateActiveNav() {
         let current = '';
         const sections = document.querySelectorAll('section[id]');
         const navHeight = document.querySelector('.top-nav').offsetHeight;
@@ -54,6 +57,12 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
 
+        // The last section can be too short to reach the top of the window
+        const atBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2;
+        if (atBottom && sections.length) {
+            current = sections[sections.length - 1].getAttribute('id');
+        }
+
         navLinks.forEach(link => {
             link.classList.remove('active');
             const linkTarget = link.getAttribute('href').substring(1);
@@ -63,7 +72,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 link.classList.add('active');
             }
         });
-    });
+    }
+
+    window.addEventListener('scroll', updateActiveNav, { passive: true });
+    updateActiveNav();
 
     // Load news data
     let newsJsonPath = 'data/news.json';
@@ -82,6 +94,45 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         .catch(error => console.error('Error loading news data:', error));
 });
+
+// Light / dark switch. Follows the device setting until the visitor makes a choice.
+function setupThemeToggle() {
+    const root = document.documentElement;
+    const buttons = document.querySelectorAll('.theme-toggle');
+    const systemDark = window.matchMedia('(prefers-color-scheme: dark)');
+
+    function applyTheme(theme) {
+        // Switch every color at once, so text is never briefly unreadable mid-fade
+        root.classList.add('theme-switching');
+        root.setAttribute('data-theme', theme);
+        void getComputedStyle(root).color; // let the browser apply the new colors before fades return
+        root.classList.remove('theme-switching');
+        document.querySelector('meta[name="theme-color"]').content = theme === 'dark' ? '#101613' : '#fefffe';
+        const label = theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode';
+        buttons.forEach(button => {
+            button.setAttribute('aria-label', label);
+            button.setAttribute('title', label);
+        });
+    }
+
+    function savedTheme() {
+        try { return localStorage.getItem('theme'); } catch (e) { return null; }
+    }
+
+    applyTheme(root.getAttribute('data-theme') || 'light');
+
+    buttons.forEach(button => {
+        button.addEventListener('click', () => {
+            const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+            applyTheme(next);
+            try { localStorage.setItem('theme', next); } catch (e) {}
+        });
+    });
+
+    systemDark.addEventListener('change', event => {
+        if (!savedTheme()) applyTheme(event.matches ? 'dark' : 'light');
+    });
+}
 
 // Simplified publication rendering - plain text with DOI links
 function loadPublications() {
