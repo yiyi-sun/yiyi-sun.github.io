@@ -166,6 +166,11 @@ button:focus-visible,
     transition: color 0.2s, background-color 0.2s;
 }
 
+.theme-toggle svg {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
 .theme-toggle:hover {
     color: rgb(var(--primary));
     background-color: rgb(var(--n-100));
